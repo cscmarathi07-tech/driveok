@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="hi" prefix="og: https://ogp.me/ns#">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- ══ PRIMARY SEO ══ -->
+    <title>Drive Ok — Ola Rapido Auto Accept App | Auto Ride Acceptor Pune</title>
+    <meta name="description" content="Drive Ok App — Ola aur Rapido drivers ke liye Auto Accept App. Rides apne aap accept hongi. Fare filter, Night Mode, Ride History. Drivers ke liye best auto acceptor app.">
+    <meta name="keywords" content="drive ok, auto ride acceptor, auto acceptor, drive ok auto acceptor, ola auto accept app, rapido auto accept, ola rapido driver app, auto accept rides, ola driver app, rapido driver app, automatic ride accept, ride acceptor app">
+    <meta name="author" content="Drive Ok">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="Hindi, English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://driveok.github.io/">
+
+    <!-- ══ OPEN GRAPH ══ -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://driveok.github.io/">
+    <meta property="og:title" content="Drive Ok — Auto Ride Acceptor for Ola & Rapido">
+    <meta property="og:description" content="Ola aur Rapido rides apne aap accept karo. Drivers ke liye #1 Auto Acceptor App.">
+    <meta property="og:site_name" content="Drive Ok">
+    <meta property="og:locale" content="hi_IN">
+
+    <!-- ══ TWITTER ══ -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Drive Ok — Auto Ride Acceptor">
+    <meta name="twitter:description" content="Ola Rapido rides apne aap accept hongi. Drivers ke liye best app.">
+
+    <!-- ══ SCHEMA.ORG ══ -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Drive Ok Auto Acceptor",
+      "alternateName": ["Drive Ok", "Auto Ride Acceptor", "Ola Rapido Auto Accept"],
+      "description": "Drive Ok is an auto accept app for Ola and Rapido drivers. Automatically accepts ride requests based on fare filters.",
+      "applicationCategory": "UtilitiesApplication",
+      "operatingSystem": "Android",
+      "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" },
+      "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "ratingCount": "50" }
+    }
+    </script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --green: #00C471;
+            --green-bg: rgba(0,196,113,0.08);
+            --border-green: rgba(0,196,113,0.2);
+            --dark: #060B14;
+            --dark2: #0C1220;
+            --card: #0F1929;
+            --card2: #141E2E;
+            --border: rgba(255,255,255,0.07);
+            --text: #EEF2FF;
+            --text-dim: #6B7FA3;
+            --text-mid: #9AA5C4;
+            --white: #ffffff;
+        }
+        * { margin:0; padding:0; box-sizing:border-box; }
+        html { scroll-behavior:smooth; }
+        body { font-family:'Inter',sans-serif; background:var(--dark); color:var(--text); overflow-x:hidden; -webkit-font-smoothing:antialiased; }
+
+        /* NAV */
+        nav { position:fixed; top:0; left:0; right:0; z-index:999; padding:0 24px; height:60px; display:flex; align-items:center; justify-content:space-between; background:rgba(6,11,20,0.95); backdrop-filter:blur(20px); border-bottom:1px solid var(--border); }
+        .nav-brand { display:flex; align-items:center; gap:10px; text-decoration:none; }
+        .nav-icon { width:34px; height:34px; background:var(--green); border-radius:9px; display:flex; align-items:center; justify-content:center; font-weight:800; font-size:18px; color:#000; font-family:'Space Grotesk',sans-serif; }
+        .nav-name { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:17px; color:var(--white); }
+        .nav-dl { background:var(--green); color:#000; padding:8px 18px; border-radius:8px; font-weight:700; font-size:13px; text-decoration:none; transition:opacity 0.2s; }
+        .nav-dl:hover { opacity:0.85; }
+
+        /* HERO */
+        .hero { padding:100px 24px 64px; position:relative; overflow:hidden; }
+        .hero-grid { position:absolute; inset:0; background-image:linear-gradient(rgba(0,196,113,0.03) 1px,transparent 1px),linear-gradient(90deg,rgba(0,196,113,0.03) 1px,transparent 1px); background-size:40px 40px; pointer-events:none; }
+        .hero-glow { position:absolute; top:40px; right:-100px; width:320px; height:320px; background:radial-gradient(circle,rgba(0,196,113,0.1) 0%,transparent 70%); pointer-events:none; }
+        .hero-inner { position:relative; z-index:1; }
+        .pill { display:inline-flex; align-items:center; gap:6px; background:var(--green-bg); border:1px solid var(--border-green); color:var(--green); padding:5px 14px; border-radius:100px; font-size:12px; font-weight:600; margin-bottom:24px; }
+        .dot { width:6px; height:6px; background:var(--green); border-radius:50%; animation:blink 1.5s infinite; }
+        @keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+        h1 { font-family:'Space Grotesk',sans-serif; font-size:36px; font-weight:700; line-height:1.15; color:var(--white); margin-bottom:16px; letter-spacing:-0.5px; }
+        h1 em { font-style:normal; color:var(--green); }
+        .hero-p { font-size:15px; color:var(--text-mid); line-height:1.65; margin-bottom:32px; }
+        .actions { display:flex; flex-direction:column; gap:10px; margin-bottom:40px; }
+        .btn-main { background:var(--green); color:#000; padding:15px 24px; border-radius:10px; font-size:15px; font-weight:700; text-decoration:none; display:flex; align-items:center; justify-content:center; gap:8px; transition:all 0.2s; }
+        .btn-main:hover { opacity:0.88; transform:translateY(-1px); }
+        .btn-out { background:transparent; color:var(--text); padding:15px 24px; border-radius:10px; font-size:15px; font-weight:600; text-decoration:none; display:flex; align-items:center; justify-content:center; gap:8px; border:1px solid var(--border); transition:all 0.2s; }
+        .btn-out:hover { border-color:var(--border-green); color:var(--green); }
+
+        /* STATS */
+        .stats { display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--border); border-radius:12px; overflow:hidden; border:1px solid var(--border); margin-bottom:40px; }
+        .stat { background:var(--card); padding:16px 12px; text-align:center; }
+        .stat-n { font-family:'Space Grotesk',sans-serif; font-size:22px; font-weight:700; color:var(--green); }
+        .stat-l { font-size:11px; color:var(--text-dim); margin-top:2px; font-weight:500; }
+
+        /* MOCKUP */
+        .mockup { background:var(--card2); border-radius:20px; border:1px solid var(--border); overflow:hidden; box-shadow:0 32px 80px rgba(0,0,0,0.6); }
+        .m-bar { background:var(--card); padding:14px 20px; display:flex; align-items:center; justify-content:space-between; border-bottom:1px solid var(--border); }
+        .m-title { font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:16px; }
+        .m-status { display:flex; align-items:center; gap:6px; font-size:12px; color:var(--green); font-weight:600; }
+        .m-body { padding:16px; }
+        .m-plan { background:linear-gradient(135deg,rgba(0,196,113,0.1),rgba(0,196,113,0.03)); border:1px solid var(--border-green); border-radius:12px; padding:14px 16px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; }
+        .m-plan-t { font-size:13px; color:var(--green); font-weight:600; }
+        .m-plan-s { font-size:11px; color:var(--text-dim); margin-top:2px; }
+        .m-sw { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:14px 16px; margin-bottom:12px; display:flex; justify-content:space-between; align-items:center; }
+        .m-sw-n { font-size:14px; font-weight:600; }
+        .m-sw-s { font-size:11px; color:var(--green); margin-top:2px; }
+        .tog { width:46px; height:26px; background:var(--green); border-radius:100px; position:relative; flex-shrink:0; }
+        .tog::after { content:''; position:absolute; right:3px; top:3px; width:20px; height:20px; background:white; border-radius:50%; box-shadow:0 2px 4px rgba(0,0,0,0.3); }
+        .m-grid { display:grid; grid-template-columns:1fr 1fr; gap:10px; }
+        .m-tile { background:var(--card); border:1px solid var(--border); border-radius:10px; padding:12px; display:flex; align-items:center; gap:10px; }
+        .t-ico { width:36px; height:36px; border-radius:8px; display:flex; align-items:center; justify-content:center; font-size:16px; flex-shrink:0; }
+        .t-ico.g{background:rgba(0,196,113,0.12)} .t-ico.y{background:rgba(255,214,0,0.12)} .t-ico.b{background:rgba(99,179,237,0.12)} .t-ico.o{background:rgba(251,146,60,0.12)}
+        .t-n { font-size:12px; font-weight:600; }
+        .t-v { font-size:11px; color:var(--text-dim); margin-top:1px; }
+
+        /* SECTIONS */
+        .sec { padding:64px 24px; }
+        .tag { font-size:11px; font-weight:700; color:var(--green); letter-spacing:1.5px; text-transform:uppercase; margin-bottom:10px; }
+        h2 { font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:700; color:var(--white); margin-bottom:8px; letter-spacing:-0.3px; line-height:1.25; }
+        .sdesc { font-size:14px; color:var(--text-mid); line-height:1.65; margin-bottom:32px; }
+        .sep { height:1px; background:var(--border); }
+
+        /* PLATFORMS */
+        .plats { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+        .plat { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:24px 16px; text-align:center; transition:border-color 0.2s; }
+        .plat.ola:hover{border-color:rgba(0,166,81,0.4)} .plat.rapido:hover{border-color:rgba(255,214,0,0.4)}
+        .plat-i { font-size:32px; margin-bottom:10px; }
+        .plat-n { font-family:'Space Grotesk',sans-serif; font-size:17px; font-weight:700; color:var(--white); margin-bottom:6px; }
+        .plat-b { display:inline-block; font-size:11px; font-weight:600; color:var(--green); background:var(--green-bg); padding:3px 10px; border-radius:100px; }
+
+        /* FEATURES */
+        .feats { display:flex; flex-direction:column; gap:12px; }
+        .feat { background:var(--card); border:1px solid var(--border); border-radius:14px; padding:18px; display:flex; gap:14px; align-items:flex-start; transition:border-color 0.2s; }
+        .feat:hover{border-color:var(--border-green)}
+        .f-ico { width:44px; height:44px; border-radius:11px; display:flex; align-items:center; justify-content:center; font-size:20px; flex-shrink:0; }
+        .f-ico.g{background:rgba(0,196,113,0.12)} .f-ico.y{background:rgba(255,214,0,0.12)} .f-ico.b{background:rgba(99,179,237,0.12)} .f-ico.o{background:rgba(251,146,60,0.12)}
+        .f-n { font-family:'Space Grotesk',sans-serif; font-size:15px; font-weight:600; color:var(--white); margin-bottom:4px; }
+        .f-d { font-size:13px; color:var(--text-dim); line-height:1.55; }
+
+        /* STEPS */
+        .steps { display:flex; flex-direction:column; }
+        .step { display:flex; gap:16px; padding-bottom:32px; }
+        .step:last-child{padding-bottom:0}
+        .s-left { display:flex; flex-direction:column; align-items:center; flex-shrink:0; }
+        .s-num { width:38px; height:38px; border-radius:50%; background:var(--green); color:#000; font-family:'Space Grotesk',sans-serif; font-weight:700; font-size:16px; display:flex; align-items:center; justify-content:center; }
+        .s-line { width:1px; flex:1; background:var(--border); margin-top:8px; min-height:20px; }
+        .step:last-child .s-line{display:none}
+        .s-body { padding-top:6px; }
+        .s-title { font-family:'Space Grotesk',sans-serif; font-size:16px; font-weight:600; color:var(--white); margin-bottom:4px; }
+        .s-desc { font-size:13px; color:var(--text-dim); line-height:1.6; }
+
+        /* FAQ */
+        .faqs { display:flex; flex-direction:column; gap:10px; }
+        .faq { background:var(--card); border:1px solid var(--border); border-radius:12px; padding:16px; }
+        .faq-q { font-size:14px; font-weight:600; color:var(--white); margin-bottom:6px; }
+        .faq-a { font-size:13px; color:var(--text-dim); line-height:1.6; }
+
+        /* CTA */
+        .cta-box { background:linear-gradient(135deg,rgba(0,196,113,0.1),rgba(0,196,113,0.03)); border:1px solid var(--border-green); border-radius:20px; padding:40px 24px; text-align:center; }
+        .cta-t { font-family:'Space Grotesk',sans-serif; font-size:24px; font-weight:700; color:var(--white); margin-bottom:8px; letter-spacing:-0.3px; }
+        .cta-s { font-size:14px; color:var(--text-mid); margin-bottom:24px; line-height:1.6; }
+
+        /* FOOTER */
+        footer { background:var(--dark2); border-top:1px solid var(--border); padding:32px 24px; }
+        .ft-brand { font-family:'Space Grotesk',sans-serif; font-size:18px; font-weight:700; color:var(--white); margin-bottom:6px; }
+        .ft-brand span{color:var(--green)}
+        .ft-tag { font-size:13px; color:var(--text-dim); margin-bottom:20px; line-height:1.5; }
+        .ft-links { display:flex; flex-wrap:wrap; gap:16px; margin-bottom:24px; }
+        .ft-link { font-size:13px; color:var(--text-mid); text-decoration:none; transition:color 0.2s; }
+        .ft-link:hover{color:var(--green)}
+        .ft-copy { font-size:12px; color:var(--text-dim); padding-top:20px; border-top:1px solid var(--border); }
+
+        /* FADE */
+        .fade { opacity:0; transform:translateY(16px); transition:opacity 0.55s ease,transform 0.55s ease; }
+        .fade.vis { opacity:1; transform:translateY(0); }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="/" class="nav-brand">
+        <div class="nav-icon">D</div>
+        <span class="nav-name">Drive Ok</span>
+    </a>
+    <a href="https://t.me/driveok_app" class="nav-dl" target="_blank" rel="noopener">Download App</a>
+</nav>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-grid" aria-hidden="true"></div>
+    <div class="hero-glow" aria-hidden="true"></div>
+    <div class="hero-inner">
+
+        <div class="pill">
+            <span class="dot"></span>
+            Live — Ola &amp; Rapido Auto Acceptor
+        </div>
+
+        <h1>Ola Rapido Rides<br><em>Apne Aap Accept</em><br>Hongi</h1>
+
+        <p class="hero-p">
+            Drive Ok — Ola aur Rapido drivers ke liye
+            professional auto accept app. Fare filter set karo,
+            apni marzi ki rides pakdo.
+        </p>
+
+        <div class="actions">
+            <a href="https://t.me/driveok_app" class="btn-main" target="_blank" rel="noopener">
+                📲 App Download Karo — Join Channel
+            </a>
+            <a href="#features" class="btn-out">Features Dekho ↓</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="stat-n">Ola</div>
+                <div class="stat-l">Supported</div>
+            </div>
+            <div class="stat">
+                <div class="stat-n">Rapido</div>
+                <div class="stat-l">Supported</div>
+            </div>
+            <div class="stat">
+                <div class="stat-n">v1.0</div>
+                <div class="stat-l">Latest App</div>
+            </div>
+        </div>
+
+        <div class="mockup fade">
+            <div class="m-bar">
+                <span class="m-title">Drive Ok</span>
+                <span class="m-status"><span class="dot"></span> Premium Active</span>
+            </div>
+            <div class="m-body">
+                <div class="m-plan">
+                    <div>
+                        <div class="m-plan-t">● Premium Active</div>
+                        <div class="m-plan-s">23h 48m baki</div>
+                    </div>
+                    <span style="font-size:11px;color:var(--green);font-weight:600;">ACTIVE ✓</span>
+                </div>
+                <div class="m-sw">
+                    <div>
+                        <div class="m-sw-n">Auto-Acceptor</div>
+                        <div class="m-sw-s">System Online — Active ✓</div>
+                    </div>
+                    <div class="tog"></div>
+                </div>
+                <div class="m-grid">
+                    <div class="m-tile"><div class="t-ico g">🚗</div><div><div class="t-n">Ola</div><div class="t-v">Accept ON</div></div></div>
+                    <div class="m-tile"><div class="t-ico y">⚡</div><div><div class="t-n">Rapido</div><div class="t-v">Accept ON</div></div></div>
+                    <div class="m-tile"><div class="t-ico b">💰</div><div><div class="t-n">Fare Filter</div><div class="t-v">Set karo</div></div></div>
+                    <div class="m-tile"><div class="t-ico o">🌙</div><div><div class="t-n">Night Mode</div><div class="t-v">Rapido Only</div></div></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- PLATFORMS -->
+<section class="sec fade">
+    <div class="tag">Supported Apps</div>
+    <h2>Ola aur Rapido<br>Dono Supported</h2>
+    <p class="sdesc">Drive Ok dono platforms pe seamlessly kaam karta hai.</p>
+    <div class="plats">
+        <div class="plat ola"><div class="plat-i">🟢</div><div class="plat-n">Ola</div><div class="plat-b">✓ Supported</div></div>
+        <div class="plat rapido"><div class="plat-i">⚡</div><div class="plat-n">Rapido</div><div class="plat-b">✓ Supported</div></div>
+    </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- FEATURES -->
+<section class="sec fade" id="features">
+    <div class="tag">Features</div>
+    <h2>Drive Ok Mein<br>Kya Kya Milega</h2>
+    <p class="sdesc">Har ek feature driver ki zarurat ko dhyan mein rakh ke banaya gaya hai.</p>
+    <div class="feats">
+        <div class="feat">
+            <div class="f-ico g">⚡</div>
+            <div><div class="f-n">Auto Accept</div><div class="f-d">Ride screen pe aate hi apne aap accept ho jaati hai. Haath lagane ki zarurat nahi. Ola aur Rapido dono pe.</div></div>
+        </div>
+        <div class="feat">
+            <div class="f-ico y">💰</div>
+            <div><div class="f-n">Fare Filter</div><div class="f-d">Minimum aur maximum fare set karo. Sirf apni range ki rides accept hongi — baaki automatic skip.</div></div>
+        </div>
+        <div class="feat">
+            <div class="f-ico b">🌙</div>
+            <div><div class="f-n">Night Mode — Rapido</div><div class="f-d">Raat ki shift ke liye instant accept mode. Koi filter nahi, turant accept. Zyada rides, zyada kamaai.</div></div>
+        </div>
+        <div class="feat">
+            <div class="f-ico o">📊</div>
+            <div><div class="f-n">Ride History</div><div class="f-d">Har accepted ride ka complete record. Fare, pickup, drop, time — sab saved.</div></div>
+        </div>
+        <div class="feat">
+            <div class="f-ico g">📏</div>
+            <div><div class="f-n">Distance Filter — Ola</div><div class="f-d">Pickup aur drop ki distance bhi filter kar sakte ho. Door ki ride nahi chahiye? Set kar do — automatic skip.</div></div>
+        </div>
+        <div class="feat">
+            <div class="f-ico b">🔒</div>
+            <div><div class="f-n">Secure Account</div><div class="f-d">Ek account sirf ek phone pe kaam karta hai. Plan expire hone pe service apne aap band. Poora data encrypted aur safe.</div></div>
+        </div>
+        <div class="feat">
+            <div class="f-ico y">📱</div>
+            <div><div class="f-n">Background Service</div><div class="f-d">App band karo ya doosra app use karo — Drive Ok background mein chalta rehta hai. Koi ride miss nahi hogi.</div></div>
+        </div>
+    </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- HOW IT WORKS -->
+<section class="sec fade" id="how">
+    <div class="tag">Setup</div>
+    <h2>4 Steps Mein<br>Shuru Karo</h2>
+    <p class="sdesc">Ek baar setup karo — hamesha kaam karega.</p>
+    <div class="steps">
+        <div class="step">
+            <div class="s-left"><div class="s-num">1</div><div class="s-line"></div></div>
+            <div class="s-body"><div class="s-title">App Download Karo</div><div class="s-desc">Telegram channel join karo — @driveok_app. APK file aur updates wahan milenge.</div></div>
+        </div>
+        <div class="step">
+            <div class="s-left"><div class="s-num">2</div><div class="s-line"></div></div>
+            <div class="s-body"><div class="s-title">Register Karo</div><div class="s-desc">App kholo, ID aur 6 digit password banao. Account turant ready.</div></div>
+        </div>
+        <div class="step">
+            <div class="s-left"><div class="s-num">3</div><div class="s-line"></div></div>
+            <div class="s-body"><div class="s-title">Plan Activate Karo</div><div class="s-desc">Payment karo, admin plan activate karega. Turant active ho jaayega.</div></div>
+        </div>
+        <div class="step">
+            <div class="s-left"><div class="s-num">4</div><div class="s-line"></div></div>
+            <div class="s-body"><div class="s-title">Auto Accept ON Karo</div><div class="s-desc">App mein switch ON karo — rides apne aap accept hone lagengi.</div></div>
+        </div>
+    </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- FAQ -->
+<section class="sec fade" id="faq">
+    <div class="tag">FAQ</div>
+    <h2>Aksar Pooche Jaane<br>Wale Sawaal</h2>
+    <p class="sdesc">Koi bhi doubt ho to padhlo.</p>
+    <div class="faqs">
+        <div class="faq"><div class="faq-q">Drive Ok app Android ke saath compatible hai?</div><div class="faq-a">Haan, Drive Ok Android 8.0 aur usse upar ke sabhi phones pe kaam karta hai.</div></div>
+        <div class="faq"><div class="faq-q">Kya app background mein kaam karta hai?</div><div class="faq-a">Haan, Drive Ok background mein chalta rehta hai. Sirf Accessibility permission ek baar deni hoti hai.</div></div>
+        <div class="faq"><div class="faq-q">Ek account kitne phones pe use kar sakte hain?</div><div class="faq-a">Ek account sirf ek phone pe kaam karta hai — security ke liye device binding hoti hai.</div></div>
+        <div class="faq"><div class="faq-q">Plan expire hone pe kya hoga?</div><div class="faq-a">Plan expire hone pe service apne aap band ho jaayegi. Renew ke liye Telegram channel @driveok_app pe contact karo.</div></div>
+        <div class="faq"><div class="faq-q">Fare filter kaise kaam karta hai?</div><div class="faq-a">Minimum aur maximum fare set karo. Is range se bahar ki rides automatically skip ho jaayengi.</div></div>
+    </div>
+</section>
+
+<div class="sep"></div>
+
+<!-- CTA -->
+<section class="sec fade">
+    <div class="cta-box">
+        <div class="cta-t">Abhi Download Karo</div>
+        <div class="cta-s">Telegram pe message karo — APK turant mil jaayega.<br>Setup sirf 5 minute mein complete hoga.</div>
+        <a href="https://t.me/driveok_app" class="btn-main" target="_blank" rel="noopener" style="max-width:280px;margin:0 auto;">
+            📲 Telegram Channel Join Karo
+        </a>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="ft-brand">Drive <span>Ok</span></div>
+    <div class="ft-tag">Ola aur Rapido Auto Accept App<br>Join: <a href="https://t.me/driveok_app" style="color:var(--green);text-decoration:none;" target="_blank">@driveok_app</a></div>
+    <div class="ft-links">
+        <a href="#features" class="ft-link">Features</a>
+        <a href="#how" class="ft-link">How it Works</a>
+        <a href="#faq" class="ft-link">FAQ</a>
+        <a href="https://t.me/driveok_app" class="ft-link" target="_blank" rel="noopener">Telegram Channel</a>
+        <a href="https://t.me/driveok_app" class="ft-link" target="_blank" rel="noopener">Download App</a>
+    </div>
+    <div class="ft-copy">
+        © 2026 Drive Ok. All rights reserved.<br>
+        <span style="font-size:11px;">drive ok | auto ride acceptor | auto acceptor | drive ok auto acceptor | ola rapido driver app</span>
+    </div>
+</footer>
+
+<script>
+    const obs = new IntersectionObserver(entries => {
+        entries.forEach(e => { if(e.isIntersecting) e.target.classList.add('vis'); });
+    }, { threshold: 0.08 });
+    document.querySelectorAll('.fade').forEach(el => obs.observe(el));
+</script>
+
+</body>
+</html>
